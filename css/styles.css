@@ -4,11 +4,17 @@ body{
     height: 100%;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
 }
 
 .container-app {
     background-color:black;
     font-size:1.4em;
+    position: relative;
+}
+
+.hide{
+    display: none;
 }
   
 .slide1{background-image: url("../img/weather-bg1.jpg");}
@@ -21,16 +27,30 @@ body{
     height: 350px;
     width: 100%;
     padding: 50px;
+    box-shadow: 15px 10px 10px rgb(39, 65, 97);
 }
   
 .to-do-list-container{
     float: left;
     width: 30%;
-    background-color:lightgreen;
+    background-color: rgba(160, 203, 255, 0.5);
+    box-shadow: 10px 5px 5px rgb(39, 65, 97);
+}
+
+.to-do-list-container:hover{
+    box-shadow: 20px 15px 15px rgb(39, 65, 97);
 }
 
 .covid-tracker-container{
     float: left;
     width: 70%;
-    background-color: lightcoral;
+    background-color: rgba(160, 203, 255, 0.5);
 }
+
+
+@media screen and (max-width: 1500px){
+    body{
+        overflow: auto;
+    }
+}
+

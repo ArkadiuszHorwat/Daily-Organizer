@@ -3,9 +3,10 @@
     background-color: rgba(244, 249, 255, 0.1);
     
     display: block;
-    margin-left: 80%;
-    padding-bottom : 50px;
+    margin-left: 70%;
+    padding-bottom: 50px;
     border-radius: 3rem;
+    position: absolute;
 }
 
 .weather:hover{
@@ -76,4 +77,10 @@
     padding: 0;
     text-align: center;
     font-size: 0.8em;
+}
+
+@media screen and (max-width: 1000px){
+    .weather{
+        margin: auto;
+    }
 }
