@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-app {
+    background-color:black;
+    font-size:1.4em;
+}
+  
+.weather-container{
+    height: 350px;
+    width: 100%;
+    background-image: url("../img/weather-bg.jpg");
+    padding: 50px;
+}
+  
+.to-do-list-container{
+    float: left;
+    width: 30%;
+    background-color:lightgreen;
+}
+
+.covid-tracker-container{
+    float: left;
+    width: 70%;
+    background-color: lightcoral;
+}

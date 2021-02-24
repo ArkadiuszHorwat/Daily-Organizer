@@ -1,0 +1,79 @@
+.weather{
+    width: 300px;    
+    background-color: rgba(244, 249, 255, 0.1);
+    
+    display: block;
+    margin-left: 80%;
+    padding-bottom : 50px;
+    border-radius: 3rem;
+}
+
+.weather:hover{
+    background-color: rgba(244, 249, 255, 0.2);
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0.8em;
+}
