@@ -11,10 +11,15 @@ body{
     font-size:1.4em;
 }
   
+.slide1{background-image: url("../img/weather-bg1.jpg");}
+.slide2{background-image: url("../img/weather-bg2.jpg");}
+.slide3{background-image: url("../img/weather-bg3.jpg");}
+.slide4{background-image: url("../img/weather-bg4.jpg");}
+.slide5{background-image: url("../img/weather-bg5.jpg");}
+
 .weather-container{
     height: 350px;
     width: 100%;
-    background-image: url("../img/weather-bg.jpg");
     padding: 50px;
 }
   
