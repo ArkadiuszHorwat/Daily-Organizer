@@ -5,10 +5,12 @@ body{
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
+    background: rgb(229,245,245);
+    background: linear-gradient(0deg, rgba(229,245,245,1) 0%, rgba(143,249,216,1) 100%);
+    color: black;
 }
 
 .container-app {
-    background-color:black;
     font-size:1.4em;
     position: relative;
 }
@@ -27,30 +29,44 @@ body{
     height: 350px;
     width: 100%;
     padding: 50px;
-    box-shadow: 15px 10px 10px rgb(39, 65, 97);
 }
   
 .to-do-list-container{
     float: left;
     width: 30%;
-    background-color: rgba(160, 203, 255, 0.5);
-    box-shadow: 10px 5px 5px rgb(39, 65, 97);
+    height: 580px;   
+    background-color: rgba(244, 249, 255, 0.3);  
+    border-radius: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    box-shadow: 5px 5px 10px 10px rgb(69, 93, 122);
 }
-
 .to-do-list-container:hover{
-    box-shadow: 20px 15px 15px rgb(39, 65, 97);
+    background-color: rgba(244, 249, 255, 0.6); 
 }
 
 .covid-tracker-container{
     float: left;
-    width: 70%;
-    background-color: rgba(160, 203, 255, 0.5);
+    width: 60%;
+    height: 580px;
+    position: relative;
 }
 
 
 @media screen and (max-width: 1500px){
     body{
         overflow: auto;
+    }
+}
+@media screen and (max-width: 1000px){
+    .to-do-list-container{
+        clear: both;
+        width: 100%;
+    }
+    .covid-tracker-container{
+        clear: both;
+        width: 100%;
     }
 }
 
