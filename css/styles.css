@@ -6,7 +6,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
     background: rgb(229,245,245);
-    background: linear-gradient(0deg, rgba(229,245,245,1) 0%, rgba(143,249,216,1) 100%);
+    background: linear-gradient(0deg, rgba(229,245,245,1) 0%, rgba(120,181,244,1) 100%);
     color: black;
 }
 
@@ -26,19 +26,24 @@ body{
 .slide5{background-image: url("../img/weather-bg5.jpg");}
 
 .weather-container{
-    height: 350px;
-    width: 100%;
-    padding: 50px;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    box-shadow: 5px 5px 10px 10px rgb(69, 93, 122);
 }
   
 .to-do-list-container{
     float: left;
     width: 30%;
-    height: 580px;   
+    height: 550px;   
     background-color: rgba(244, 249, 255, 0.3);  
-    border-radius: 2rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     margin-left: 5%;
     box-shadow: 5px 5px 10px 10px rgb(69, 93, 122);
 }
@@ -48,9 +53,16 @@ body{
 
 .covid-tracker-container{
     float: left;
-    width: 60%;
+    width: 55%;
     height: 580px;
     position: relative;
+    background-color: rgba(244, 249, 255, 0.3);  
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    box-shadow: 5px 5px 10px 10px rgb(69, 93, 122);
 }
 
 

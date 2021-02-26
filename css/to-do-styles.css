@@ -73,6 +73,10 @@
     color:#af0000;
     cursor: pointer;
 }
+#plus:hover{
+    cursor: pointer;
+    color: rgb(92, 153, 32);
+}
 
 
 
