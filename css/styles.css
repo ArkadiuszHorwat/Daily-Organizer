@@ -5,8 +5,7 @@ body{
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
-    background: rgb(229,245,245);
-    background: linear-gradient(0deg, rgba(229,245,245,1) 100%, rgba(120,181,244,1) 0%);
+    background: rgb(255, 255, 255);
     color: black;
 }
 
@@ -75,16 +74,24 @@ body{
 @media screen and (max-width: 1500px){
     body{
         overflow: auto;
+        overflow-x: hidden;
     }
 }
 @media screen and (max-width: 1000px){
+    .weather-container{
+        width: 100%;
+        box-shadow: none;
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    }
     .to-do-list-container{
         clear: both;
-        width: 100%;
+        width: 90%;
     }
     .covid-tracker-container{
         clear: both;
-        width: 100%;
+        width: 90%;
+        box-shadow: none;
     }
 }
 
