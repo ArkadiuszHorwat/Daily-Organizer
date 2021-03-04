@@ -61,7 +61,7 @@
 }
 .lineThrough{
     text-decoration: line-through;
-    color : #ccc;
+    color : rgba(0,0,0,0.6);
 }
 .item i.de{
     position: absolute;
